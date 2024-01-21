@@ -1,5 +1,6 @@
-import React from' React';
+import React from 'react';
 import './item.css'
+import { Link } from 'react-router-dom'
 
 const item = (props) =>{
 
@@ -9,11 +10,11 @@ const item = (props) =>{
         <p> {props.name}</p>
         <div className='item-prices'>
             <div className='item-price-new'>
-            <p> {props.new_price}</p>
+            ${props.new_price}
 
             </div>
             <div className='item-price-old'>
-            <p> {props.old_price}</p>
+            ${props.old_price}
 
             </div>
 
