@@ -1,35 +1,34 @@
-import image_6 from './image_6.jpg'
-import image_7 from './image_7.jpg'
-import image_8 from './image_8.jpg'
-import image_9 from './image_9.jpg'
-import image_2 from './image_2.jpg'
-import image_4 from './image_4.webp'
-import image_3 from './image_3.jpg'
-import robe_ete from './robe_ete.webp'
+
+
+import product_8 from './product_8.jpg'
+import product_9 from './product_9.jpg'
+
+import product_16 from './product_16.webp'
+import product_17 from './product_17.webp'
 
 let data_product = [
   {
-    id:1,
+    id:16,
     name:"Veste de couleur grise avec ceinture",
-    image:image_4,
+    image: product_16,
     new_price:50.00,
     old_price:80.50,
   },
-  {id:2,
+  {id:9,
     name:"Ensemble tailleur bleue clair avec pantalon large",
-    image:image_9,
-    new_price:85.00,
+    image:product_9,
+    new_price:50.00,
     old_price:120.50,
   },
-  {id:3,
+  {id:17,
     name:"Jeans large",
-    image:robe_ete,
+    image:product_17,
     new_price:60.00,
     old_price:100.50,
   },
-  {id:4,
+  {id:8,
     name:"Robe fleurie jaune pour été ",
-    image:image_8,
+    image:product_8,
     new_price:100.00,
     old_price:150.00,
   },
