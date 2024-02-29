@@ -22,3 +22,58 @@
     margin-top: 50px;
     gap: 290px;
 }
+@media(max-width:1280px){
+    
+    .new-collection h1{
+        font-size: 40px;
+    }
+    .new-collection hr{
+        width: 160px;
+        height: 4px;
+    }
+    .collection{
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+@media(max-width:1024px){
+   }
+    .new-collections h1{
+        font-size: 30px;
+    }
+    .new-collection hr{
+        width: 120px;
+        height: 3px;
+    }
+    .collection{
+        margin-top: 20px;
+        gap: 15px;
+    }
+    
+}
+@media(max-width:800px){
+    .new-collection{
+        gap: 6px;
+    }
+    .new-collection h1{
+        font-size: 20px;
+    }
+    .new-collection hr{
+        width: 100px;
+    }
+    .collection{
+        margin-top: 20px;
+        gap: 5px;
+    }
+    
+}
+@media(max-width:500px){
+    .new-collection{
+        gap: 6px;
+    }
+    .collection{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 20px;
+    } 
+}
