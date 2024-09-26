@@ -6,7 +6,7 @@ import Breadcrum from "../components/breadcrums/breadcrum.jsx";
 import Descriptionbox from "../components/descriptionbox/descriptionbox.jsx";
 import Relatedproduct from "../components/relatedproducts/relatedproduct.jsx";
 
-const Product = () =>{
+const product = () =>{
     const {all_product}= useContext(ShopContext);
     const {productId} = useParams();
     const product = all_product.find((e)=> e.id === Number(productId));
@@ -20,4 +20,4 @@ return(
 )
 }
 
-export default Product
+export default product
