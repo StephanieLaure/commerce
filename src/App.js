@@ -1,12 +1,12 @@
 
 import './App.css';
 import Navbar from './components/navbar/navbar';
-import Shop from './pages/Shop'
+import Shop from './pages/shop'
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import Footer from './components/footer/footer';
 import Loginsignup from './pages/Loginsignup';
 import ShopCategory from  './pages/ShopCategory';
-import Product from  './pages/Product'
+import Product from  './pages/product';
 import Cart from './pages/Cart';
 import men_banner from './components/assets/men_banner.jpg';
 import women_banner from './components/assets/banner_women.png';
