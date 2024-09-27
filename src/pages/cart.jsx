@@ -1,7 +1,7 @@
 import React from "react";
-import Cartitems from '../components/cartitems/cartitems'
+import Cartitems from '../components/Cartitems/Cartitems'
 
-const cart = () =>{
+const Cart = () =>{
 return(
     <div>
         <Cartitems/>
@@ -9,4 +9,4 @@ return(
 )
 }
 
-export default cart
+export default Cart

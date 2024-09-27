@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import './newcollection.css'
+import './Newcollection.css'
 
 import Item from '../item/item.jsx'
 
-const newcollection = () =>{
+const Newcollection = () =>{
 
     const [new_collection, setNew_collection] = useState([]);
     useEffect(()=>{
@@ -27,4 +27,4 @@ const newcollection = () =>{
     )
 }
 
-export default newcollection
+export default Newcollection

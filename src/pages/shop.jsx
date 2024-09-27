@@ -1,12 +1,12 @@
 import React from 'react'
 import Hero from '../components/Hero/Hero'
-import Popular from '../components/popular/popular'
+import Popular from '../components/Popular/Popular'
 import Offers from '../components/offers/offers'
-import Newcollection from '../components/newcollection/newcollection'
+import Newcollection from '../components/Newcollection/Newcollection'
 import Newsletters from '../components/newsletters/newsletters';
 
 
-const shop = () => {
+const Shop = () => {
 return(
     <div>
         <Hero/>
@@ -19,4 +19,4 @@ return(
 )
 }
 
-export default shop
+export default Shop

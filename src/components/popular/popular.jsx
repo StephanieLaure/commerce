@@ -1,9 +1,9 @@
 import React,{useEffect, useState} from "react";
-import './popular.css'
+import './Popular.css'
 
 import Item from '../item/item.jsx'
 
-const popular = () =>{
+const Popular = () =>{
     const [popularProducts, setPopularProducts] = useState([]);
     useEffect(()=>{
         fetch('http://localhost:4000/popularinwomen')
@@ -27,4 +27,4 @@ const popular = () =>{
     )
 }
 
-export default popular
+export default Popular

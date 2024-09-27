@@ -1,10 +1,10 @@
 import React, {useContext} from 'react';
-import  './productdisplay.css'
+import  './Productdisplay.css'
 import star_icon from '../assets/star_icon.png'
 import star_dull_icon from '../assets/star_dull_icon.png'
 import { ShopContext } from '../../Context/ShopContext';
 
-const productdisplay= (props) =>{
+const Productdisplay= (props) =>{
 
     const {product}=props;
     const {addToCart} = useContext(ShopContext);
@@ -60,4 +60,4 @@ const productdisplay= (props) =>{
     )
 }
 
-export default productdisplay
+export default Productdisplay
